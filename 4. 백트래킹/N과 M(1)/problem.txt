@@ -1,0 +1,5 @@
+문제 출처 : https://www.acmicpc.net/problem/15649
+난이도 : 하
+
+백트래킹의 template를 연습하기 좋은 문제.
+itertools라이브러리를 활용하여 중복 순열 문제를 해결 할수 도 있다.

@@ -1,0 +1,8 @@
+문제 출처 : https://www.acmicpc.net/problem/14889
+난이도 : 중
+
+이 문제는 팀을 짜는 조합 문제이다.
+조합 문제는 itertools로도 풀 수 있다.
+itertools의 combinations 함수를 이용하면 구현 난이도가 확 떨어진다.
+combinations함수는 백트래킹을 이용해 직접 구현도 가능하다.
+두가지 방법으로 다 풀어보자.

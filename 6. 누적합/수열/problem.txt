@@ -1,0 +1,4 @@
+문제 출처 : https://www.acmicpc.net/problem/2559
+난이도 : 하
+
+누적함 template 이용 문제.

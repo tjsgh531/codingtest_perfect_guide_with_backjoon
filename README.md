@@ -4,6 +4,7 @@
 특히 각 단계의 guide에는 template또는 기본 개념들이 준비되어 있습니다. 해당 template는 꼭 외워두시길 바랍니다. 수학의 공식 같은 존재입니다.
 
 링크 : [백준 단계별로 풀어보기](https://www.acmicpc.net/step)
+<img src="https://github.com/user-attachments/assets/38756fe3-48de-4b10-bb09-b8debb56aeb5" width="500" alt="coding_test">
 
 ## 목차
 

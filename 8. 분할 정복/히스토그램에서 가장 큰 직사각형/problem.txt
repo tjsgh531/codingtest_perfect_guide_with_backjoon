@@ -1,0 +1,5 @@
+문제 출처 : https://www.acmicpc.net/problem/6549
+난이도 : 상
+
+5 6 2 5 4 5
+기대 출력 : 12

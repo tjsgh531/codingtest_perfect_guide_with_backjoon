@@ -1,40 +1,28 @@
 import sys
 input = sys.stdin.readline
 
-def largest_rectangle(heights, start, end):
-    if start > end:
-        return 0
-    if start == end:
-        return heights[start]
-    
-    mid = (start + end) // 2
-    
-    # 왼쪽, 오른쪽 부분에서의 최대 넓이
-    left_area = largest_rectangle(heights, start, mid)
-    right_area = largest_rectangle(heights, mid + 1, end)
-    
-    # 중간을 걸치는 직사각형의 최대 넓이
-    height = min(heights[mid], heights[mid + 1])
-    width = 2
-    area = height * width
-    left = mid - 1
-    right = mid + 2
-    
-    while left >= start or right <= end:
-        if right <= end and (left < start or heights[right] > heights[left]):
-            height = min(height, heights[right])
-            right += 1
-        else:
-            height = min(height, heights[left])
-            left -= 1
-        width += 1
-        area = max(area, height * width)
-    
-    return max(left_area, right_area, area)
+def large_rectangle(num_list):
+    # stack에는 오른쪽으로 더 갈 수 있는 h들을 저장함. 이때 시작 idx도 함께 저장해야 width를 계산 할 수 있다.
+    # 오른쪽으로 더 갈 수 있을 조건은 h가 right_h 보다 작아야 함.
+    num_list.append(0)
+    stack = []
+    max_area = 0
 
-# 입력 처리
+    for idx, right_h in enumerate(num_list):
+        start = idx
+        # right_h 보다 크면 더이상 오른쪽으로 갈 수 없음
+        while stack and stack[-1][1] > right_h:
+            # right_h는 stack에서 pop된 start_index까지는 왼쪽으로 갈 수 있음
+            start, h = stack.pop()
+            width = idx - start
+            max_area = max(max_area, width * h)
+        stack.append((start, right_h))
+
+    return max_area
+
 while True:
     input_list = list(map(int, input().split()))
-    if input_list[0] == 0:
+    if len(input_list) == 1:
         break
-    print(largest_rectangle(input_list[1:], 0, len(input_list) - 2))
+
+    print(large_rectangle(input_list[1:]))

@@ -1,7 +1,0 @@
-문제 출처 : https://www.acmicpc.net/problem/20920
-난이도 : 하
-
-빈도수를 측정하고 조건 몇가지를 추가하여 해당 조건에 맞게 정렬하는 문제이다.
-sorted 함수의 key를 활용하여 정렬의 우선순위를 정할 수 있다.
-
-sorted(data , key = lambda x : (1순위, 2순위 ...)) 

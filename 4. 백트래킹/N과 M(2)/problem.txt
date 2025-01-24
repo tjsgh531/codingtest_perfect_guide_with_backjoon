@@ -1,5 +1,0 @@
-문제 출처 : https://www.acmicpc.net/problem/15650
-난이도 : 하
-
-템플릿을 조금 변형하면 쉽게 풀린다.
-마찬가지로 itertools를 활용하여 풀수 도 있다.

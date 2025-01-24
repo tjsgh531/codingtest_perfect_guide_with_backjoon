@@ -1,5 +1,0 @@
-문제 출처 : https://www.acmicpc.net/problem/15651
-난이도 : 하
-
-template를 응용한 문제.
-중복 순열 문제이기 때문에 itertools를 활용해서도 풀 수 있다.

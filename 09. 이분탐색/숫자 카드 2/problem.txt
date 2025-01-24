@@ -1,0 +1,6 @@
+문제 출처 : https://www.acmicpc.net/problem/10816
+난이도 : 하
+
+이건 아무리 봐도 해쉬가 훨씬 풀기 편한데...(solution1)
+뭐 이분 탐색으로 못풀 것도 없으니깐 풀어보자... (solution2)
+collections의 Counter 함수 사용하는 방법도 있다!!! (solution3)

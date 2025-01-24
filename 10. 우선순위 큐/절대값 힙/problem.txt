@@ -1,0 +1,4 @@
+문제 출처 : https://www.acmicpc.net/problem/11286
+난이도 : 하
+
+그냥 (절대값, 원래값) 을 heap에 넣어주면 끝나는 문제 아닌가?

@@ -1,4 +1,0 @@
-문제 출처 : https://www.acmicpc.net/problem/11399
-난이도 : 하
-
-빨리 뽑을 수 있는 사람들 부터 뽑으면 되요!

@@ -1,5 +1,0 @@
-문제 출처 : https://www.acmicpc.net/problem/11659
-난이도 : 하
-
-누적합의 기본 문제.
-누적합 개념을 이해하고 template를 이용하면 쉽게 풀 수 있다.

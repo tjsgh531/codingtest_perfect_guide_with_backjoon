@@ -1,0 +1,5 @@
+문제 출처 : https://www.acmicpc.net/problem/1920
+난이도 : 하
+
+이분탐색(solution2)도 좋지만 검색은 해쉬(solution1)가 제일 빠르지 않나?
+둘다 해보자.

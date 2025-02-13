@@ -1,0 +1,5 @@
+문제 출처 : https://www.acmicpc.net/problem/17299
+난이도 : 상(골3)
+
+from collections import Counter 사용할 일 많으니깐 꼭 기억해두자!!!
+해당 내용을 제외하고는 오큰수와 다른 것이 없다.

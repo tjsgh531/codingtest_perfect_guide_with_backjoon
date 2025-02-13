@@ -1,0 +1,5 @@
+문제 출처 : https://www.acmicpc.net/problem/17298
+난이도 : 상(골4)
+
+이중 반복문으로 쉽게 풀 수 있을 것이라 생각했는데 역시 골4 문제 답게 시간초과가 발생하네...(solution1(failed))
+stack을 이용하는 방법도 쉽긴해(solution2)

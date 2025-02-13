@@ -1,0 +1,8 @@
+문제 출처 : https://www.acmicpc.net/problem/9935
+난이도 : 상(골4)
+
+쉬운 스택 문제이다.
+
+마지막 부분을 삭제할 때,
+del stack[length:] VS stack = stack[:length]
+두가지로 할 수 있는데 슬라이싱 방법은 시간초과가 발생한다. del 사용을 습관화 하자.
